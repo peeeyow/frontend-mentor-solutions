@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
+    "prebuild": "rm -rf dist",
+    "build": "yarn prebuild && yarn parcel build",
     "lint": "eslint --fix '**/*.{html,js}'",
     "format": "prettier --write '**/*.{html,css,js}'"
   },
