@@ -12,6 +12,7 @@ module.exports = {
         osc: {
           "pale-blue": "hsl(225, 100%, 94%)",
           "bright-blue": "hsl(245, 75%, 52%)",
+          "desaturated-bright-blue": "hsl(245, 50%, 65%)",
           "very-pale-blue": "hsl(225, 100%, 98%)",
           "desaturated-blue": "hsl(224, 23%, 55%)",
           "dark-blue": "hsl(223, 47%, 23%)",
