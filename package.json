@@ -1,5 +1,5 @@
 {
-  "name": "qr-code-component",
+  "name": "frontend-mentor-solutions",
   "source": "src/index.html",
   "version": "1.0.0",
   "license": "MIT",
@@ -7,8 +7,8 @@
     "start": "parcel",
     "prebuild": "rm -rf dist",
     "build": "yarn prebuild && yarn parcel build",
-    "lint": "eslint --fix '**/*.{html,js}'",
-    "format": "prettier --write '**/*.{html,css,js}'"
+    "lint": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
+    "format": "prettier --write '**/*.{html,css,js,jsx,ts,tsx}'"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
