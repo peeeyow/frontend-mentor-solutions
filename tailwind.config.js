@@ -6,8 +6,16 @@ module.exports = {
       fontFamily: {
         outfit: ["Outfit", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
+        "red-hat-display": ["Red Hat Display", "sans-serif"],
       },
       colors: {
+        osc: {
+          "pale-blue": "hsl(225, 100%, 94%)",
+          "bright-blue": "hsl(245, 75%, 52%)",
+          "very-pale-blue": "hsl(225, 100%, 98%)",
+          "desaturated-blue": "hsl(224, 23%, 55%)",
+          "dark-blue": "hsl(223, 47%, 23%)",
+        },
         qrcc: {
           white: "hsl(0, 0%, 100%)",
           "light-gray": "hsl(212, 45%, 89%)",
