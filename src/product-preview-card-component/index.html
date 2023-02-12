@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body class="font-montserrat font-medium">
+    <main class="grid min-h-screen place-items-center bg-ppcc-cream">
+      <article
+        class="max-w-[335px] overflow-hidden rounded-lg bg-ppcc-white md:grid md:max-w-xl md:grid-cols-2"
+      >
+        <picture>
+          <source
+            srcset="./images/image-product-desktop.jpg"
+            media="(min-width:768px)"
+          />
+          <img
+            src="./images/image-product-mobile.jpg"
+            alt="product-sample-image"
+            class="object-cover"
+          />
+        </picture>
+        <div class="p-5 md:p-8">
+          <span
+            class="text-xs uppercase text-ppcc-dark-grayish-blue [letter-spacing:.25rem]"
+            >Perfume</span
+          >
+          <h1 class="my-3 font-fraunces text-3xl font-bold md:my-4">
+            Gabrielle Essence Eau De Parfum
+          </h1>
+          <p class="mb-3 text-sm text-ppcc-dark-grayish-blue md:mb-5">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <span
+            class="mr-4 inline-block align-middle font-fraunces text-3xl font-bold text-ppcc-dark-cyan"
+            >$149.99</span
+          ><s
+            class="inline-block align-middle text-sm text-ppcc-dark-grayish-blue"
+            >$169.99</s
+          >
+          <button
+            type="button"
+            class="mt-3 block w-full rounded-lg bg-ppcc-dark-cyan py-3 text-sm font-bold text-ppcc-white hover:bg-ppcc-darker-cyan md:mt-5"
+          >
+            <img
+              src="images/icon-cart.svg"
+              alt="cart-icon"
+              class="mr-1 inline-block align-middle"
+            />
+            Add to Cart
+          </button>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
