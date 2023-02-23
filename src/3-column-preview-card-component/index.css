@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .icon--sedan::before {
+    content: url("images/icon-sedans.svg");
+    display: block;
+  }
+  .icon--suvs::before {
+    content: url("images/icon-suvs.svg");
+    display: block;
+  }
+  .icon--luxury::before {
+    content: url("images/icon-luxury.svg");
+    display: block;
+  }
+  .card {
+    @apply grid place-items-start gap-6  p-14 text-base;
+  }
+  .card__title {
+    @apply font-big-shoulders-display text-5xl;
+  }
+  .card__info {
+    @apply text-cpcc-transparent-white;
+  }
+  .card__learn-more {
+    @apply rounded-[5rem] border-2  bg-cpcc-very-light-gray py-4 px-6 text-center transition-colors hover:border-cpcc-transparent-white hover:bg-transparent hover:text-cpcc-transparent-white;
+  }
+}
